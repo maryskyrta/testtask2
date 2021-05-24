@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Тестовое задание 2</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+</head>
+<body>
+<!--
+Необходимо написать автоматический поиск по книгам с
+использованием приведенной ниже разметки.
+Поиск должен начинаться, если в поле поиска введено более трех
+символов.
+Окончание ввода текста нужно проверять задержкой в три секунды и
+только потом отправлять запрос на поиск.
+Для поиска нужно использовать URL
+https://www.googleapis.com/books/v1/volumes?q=search+terms, где
+search+terms - введенный пользователем текст
+Более подробная документация по API
+https://developers.google.com/books/docs/v1/using?#WorkingVolumes
+-->
+<!--
+Используйте эту разметку в вашем решении
+-->
+<div class="book-search">
+    <h1>Book search</h1>
+    <input type="search" class="book-search-input">
+    <div class="book-search-result">
+    </div>
+</div>
+</body>
+<script src="./js/main.js"></script>
+</html>
